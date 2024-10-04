@@ -16,7 +16,7 @@ public class FraudDetectionController {
     private final List<Transaksi> transaksiList = Arrays.asList(
             new Transaksi("A001", "T001", LocalDateTime.of(2024, 10, 3, 8, 0), 50_000_000),
             new Transaksi("A001", "T002", LocalDateTime.of(2024, 10, 3, 8, 15), 60_000_000),
-            new Transaksi("A001", "T003", LocalDateTime.of(2024, 10, 3, 8, 25), 150_000_000), // Fraud
+            new Transaksi("A001", "T003", LocalDateTime.of(2024, 10, 3, 8, 25), 100_000_000), // Fraud
             new Transaksi("A002", "T004", LocalDateTime.of(2024, 10, 3, 8, 10), 30_000_000),
             new Transaksi("A002", "T005", LocalDateTime.of(2024, 10, 3, 8, 45), 200_000_000) // Fraud
     );
@@ -24,17 +24,28 @@ public class FraudDetectionController {
     @GetMapping("/check-fraud")
     public List<String> checkFraud() {
         Map<String, List<Transaksi>> transaksiByAkun = new HashMap<>();
+        Map<String, Double> totalTransaksiPerAkun = new HashMap<>();
 
         // Kelompokkan transaksi berdasarkan noAkun
         for (Transaksi t : transaksiList) {
             transaksiByAkun.computeIfAbsent(t.getNoAkun(), k -> new ArrayList<>()).add(t);
+            totalTransaksiPerAkun.put(t.getNoAkun(),
+                    totalTransaksiPerAkun.getOrDefault(t.getNoAkun(), 0.0) + t.getJumlahTransaksi());
         }
+
+        // Sort totalTransaksiPerAkun berdasarkan nilai (total transaksi) dari yang terbesar ke terkecil
+        List<Map.Entry<String, Double>> sortedTransaksiList = totalTransaksiPerAkun.entrySet()
+                .stream()
+                .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue())) // Sorting descending
+                .toList();
 
         List<String> frauds = new ArrayList<>();
 
         // Periksa transaksi untuk setiap akun
-        for (Map.Entry<String, List<Transaksi>> entry : transaksiByAkun.entrySet()) {
-            if (detectFraud(entry.getValue())) {
+        for (Map.Entry<String, Double> entry : sortedTransaksiList) {
+            String noAkun = entry.getKey();
+
+            if (detectFraud(transaksiByAkun.get(noAkun))) {
                 frauds.add("Akun: " + entry.getKey() + " terdeteksi melakukan fraud.");
             }
         }

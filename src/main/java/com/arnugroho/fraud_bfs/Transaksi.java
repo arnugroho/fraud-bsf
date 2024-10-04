@@ -7,6 +7,7 @@ public class Transaksi {
     private String idTransaksi;
     private LocalDateTime waktuTransaksi;
     private double jumlahTransaksi;
+    private double totalTransaksi;
 
     public Transaksi(String noAkun, String idTransaksi, LocalDateTime waktuTransaksi, double jumlahTransaksi) {
         this.noAkun = noAkun;
@@ -45,5 +46,13 @@ public class Transaksi {
 
     public void setJumlahTransaksi(double jumlahTransaksi) {
         this.jumlahTransaksi = jumlahTransaksi;
+    }
+
+    public double getTotalTransaksi() {
+        return totalTransaksi;
+    }
+
+    public void setTotalTransaksi(double totalTransaksi) {
+        this.totalTransaksi = totalTransaksi;
     }
 }
