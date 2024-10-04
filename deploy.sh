@@ -17,5 +17,5 @@ echo "remove .."
 docker rm fraud_bfs
 echo "docker run .."
 
-docker run -d -it --restart --name=fraud_bfs -p 34234:8080  arnugroho/fraud_bfs
+docker run -d -it --restart=always --name=fraud_bfs -p 34234:8080  arnugroho/fraud_bfs
 
