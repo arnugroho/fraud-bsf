@@ -1,0 +1,302 @@
+[
+  {
+    "noAkun": "ACC6357",
+    "idTransaksi": "TX000001",
+    "waktuTransaksi": "2024-01-15 01:15:36",
+    "jumlahTransaksi": 42512122
+  },
+  {
+    "noAkun": "ACC8066",
+    "idTransaksi": "TX000002",
+    "waktuTransaksi": "2024-01-15 00:45:36",
+    "jumlahTransaksi": 33296480
+  },
+  {
+    "noAkun": "ACC3851",
+    "idTransaksi": "TX000003",
+    "waktuTransaksi": "2024-01-15 00:06:26",
+    "jumlahTransaksi": 10077415
+  },
+  {
+    "noAkun": "ACC7489",
+    "idTransaksi": "TX000004",
+    "waktuTransaksi": "2024-01-15 02:44:31",
+    "jumlahTransaksi": 27626533
+  },
+  {
+    "noAkun": "ACC8254",
+    "idTransaksi": "TX000005",
+    "waktuTransaksi": "2024-01-15 02:55:05",
+    "jumlahTransaksi": 38619542
+  },
+  {
+    "noAkun": "ACC6093",
+    "idTransaksi": "TX000006",
+    "waktuTransaksi": "2024-01-15 02:46:05",
+    "jumlahTransaksi": 20187581
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000007",
+    "waktuTransaksi": "2024-01-15 02:02:04",
+    "jumlahTransaksi": 39334820
+  },
+  {
+    "noAkun": "ACC7489",
+    "idTransaksi": "TX000008",
+    "waktuTransaksi": "2024-01-15 00:12:58",
+    "jumlahTransaksi": 22880960
+  },
+  {
+    "noAkun": "ACC6093",
+    "idTransaksi": "TX000009",
+    "waktuTransaksi": "2024-01-15 01:53:05",
+    "jumlahTransaksi": 36622844
+  },
+  {
+    "noAkun": "ACC6093",
+    "idTransaksi": "TX000010",
+    "waktuTransaksi": "2024-01-15 02:12:13",
+    "jumlahTransaksi": 10919653
+  },
+  {
+    "noAkun": "ACC6357",
+    "idTransaksi": "TX000011",
+    "waktuTransaksi": "2024-01-15 00:02:44",
+    "jumlahTransaksi": 34252087
+  },
+  {
+    "noAkun": "ACC8246",
+    "idTransaksi": "TX000012",
+    "waktuTransaksi": "2024-01-15 02:40:37",
+    "jumlahTransaksi": 10008056
+  },
+  {
+    "noAkun": "ACC8254",
+    "idTransaksi": "TX000013",
+    "waktuTransaksi": "2024-01-15 01:40:03",
+    "jumlahTransaksi": 18966992
+  },
+  {
+    "noAkun": "ACC9490",
+    "idTransaksi": "TX000014",
+    "waktuTransaksi": "2024-01-15 02:08:32",
+    "jumlahTransaksi": 34057858
+  },
+  {
+    "noAkun": "ACC9338",
+    "idTransaksi": "TX000015",
+    "waktuTransaksi": "2024-01-15 00:31:30",
+    "jumlahTransaksi": 28591187
+  },
+  {
+    "noAkun": "ACC3782",
+    "idTransaksi": "TX000016",
+    "waktuTransaksi": "2024-01-15 02:24:28",
+    "jumlahTransaksi": 141171589
+  },
+  {
+    "noAkun": "ACC3782",
+    "idTransaksi": "TX000017",
+    "waktuTransaksi": "2024-01-15 00:02:46",
+    "jumlahTransaksi": 9665568
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000018",
+    "waktuTransaksi": "2024-01-15 00:57:00",
+    "jumlahTransaksi": 34801195
+  },
+  {
+    "noAkun": "ACC1418",
+    "idTransaksi": "TX000019",
+    "waktuTransaksi": "2024-01-15 01:37:48",
+    "jumlahTransaksi": 29305487
+  },
+  {
+    "noAkun": "ACC7489",
+    "idTransaksi": "TX000020",
+    "waktuTransaksi": "2024-01-15 02:29:57",
+    "jumlahTransaksi": 7453593
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000021",
+    "waktuTransaksi": "2024-01-15 02:34:57",
+    "jumlahTransaksi": 43760090
+  },
+  {
+    "noAkun": "ACC1418",
+    "idTransaksi": "TX000022",
+    "waktuTransaksi": "2024-01-15 01:21:52",
+    "jumlahTransaksi": 8855516
+  },
+  {
+    "noAkun": "ACC5761",
+    "idTransaksi": "TX000023",
+    "waktuTransaksi": "2024-01-15 01:11:34",
+    "jumlahTransaksi": 34946242
+  },
+  {
+    "noAkun": "ACC1094",
+    "idTransaksi": "TX000024",
+    "waktuTransaksi": "2024-01-15 00:04:19",
+    "jumlahTransaksi": 22885161
+  },
+  {
+    "noAkun": "ACC9673",
+    "idTransaksi": "TX000025",
+    "waktuTransaksi": "2024-01-15 01:04:03",
+    "jumlahTransaksi": 114607506
+  },
+  {
+    "noAkun": "ACC8066",
+    "idTransaksi": "TX000026",
+    "waktuTransaksi": "2024-01-15 01:47:56",
+    "jumlahTransaksi": 29523251
+  },
+  {
+    "noAkun": "ACC5214",
+    "idTransaksi": "TX000027",
+    "waktuTransaksi": "2024-01-15 01:53:34",
+    "jumlahTransaksi": 26426632
+  },
+  {
+    "noAkun": "ACC5761",
+    "idTransaksi": "TX000028",
+    "waktuTransaksi": "2024-01-15 00:59:43",
+    "jumlahTransaksi": 40401331
+  },
+  {
+    "noAkun": "ACC4296",
+    "idTransaksi": "TX000029",
+    "waktuTransaksi": "2024-01-15 01:47:06",
+    "jumlahTransaksi": 38345506
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000030",
+    "waktuTransaksi": "2024-01-15 00:29:47",
+    "jumlahTransaksi": 21438678
+  },
+  {
+    "noAkun": "ACC1094",
+    "idTransaksi": "TX000031",
+    "waktuTransaksi": "2024-01-15 01:28:48",
+    "jumlahTransaksi": 48123475
+  },
+  {
+    "noAkun": "ACC6093",
+    "idTransaksi": "TX000032",
+    "waktuTransaksi": "2024-01-15 01:24:28",
+    "jumlahTransaksi": 11293610
+  },
+  {
+    "noAkun": "ACC8246",
+    "idTransaksi": "TX000033",
+    "waktuTransaksi": "2024-01-15 01:25:04",
+    "jumlahTransaksi": 41202066
+  },
+  {
+    "noAkun": "ACC3851",
+    "idTransaksi": "TX000034",
+    "waktuTransaksi": "2024-01-15 00:01:57",
+    "jumlahTransaksi": 5859309
+  },
+  {
+    "noAkun": "ACC5214",
+    "idTransaksi": "TX000035",
+    "waktuTransaksi": "2024-01-15 00:09:21",
+    "jumlahTransaksi": 21244431
+  },
+  {
+    "noAkun": "ACC8254",
+    "idTransaksi": "TX000036",
+    "waktuTransaksi": "2024-01-15 02:19:40",
+    "jumlahTransaksi": 49429603
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000037",
+    "waktuTransaksi": "2024-01-15 02:47:09",
+    "jumlahTransaksi": 34837768
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000038",
+    "waktuTransaksi": "2024-01-15 00:58:06",
+    "jumlahTransaksi": 17323708
+  },
+  {
+    "noAkun": "ACC9490",
+    "idTransaksi": "TX000039",
+    "waktuTransaksi": "2024-01-15 01:56:25",
+    "jumlahTransaksi": 45883574
+  },
+  {
+    "noAkun": "ACC8246",
+    "idTransaksi": "TX000040",
+    "waktuTransaksi": "2024-01-15 01:27:36",
+    "jumlahTransaksi": 14196644
+  },
+  {
+    "noAkun": "ACC6327",
+    "idTransaksi": "TX000041",
+    "waktuTransaksi": "2024-01-15 00:55:25",
+    "jumlahTransaksi": 34964351
+  },
+  {
+    "noAkun": "ACC6357",
+    "idTransaksi": "TX000042",
+    "waktuTransaksi": "2024-01-15 00:20:50",
+    "jumlahTransaksi": 1159805
+  },
+  {
+    "noAkun": "ACC4444",
+    "idTransaksi": "TX000043",
+    "waktuTransaksi": "2024-01-15 01:06:20",
+    "jumlahTransaksi": 42142604
+  },
+  {
+    "noAkun": "ACC5214",
+    "idTransaksi": "TX000044",
+    "waktuTransaksi": "2024-01-15 02:18:40",
+    "jumlahTransaksi": 28475500
+  },
+  {
+    "noAkun": "ACC8254",
+    "idTransaksi": "TX000045",
+    "waktuTransaksi": "2024-01-15 00:52:40",
+    "jumlahTransaksi": 46857539
+  },
+  {
+    "noAkun": "ACC9673",
+    "idTransaksi": "TX000046",
+    "waktuTransaksi": "2024-01-15 02:39:33",
+    "jumlahTransaksi": 141439776
+  },
+  {
+    "noAkun": "ACC9490",
+    "idTransaksi": "TX000047",
+    "waktuTransaksi": "2024-01-15 01:49:19",
+    "jumlahTransaksi": 31343027
+  },
+  {
+    "noAkun": "ACC5214",
+    "idTransaksi": "TX000048",
+    "waktuTransaksi": "2024-01-15 02:10:27",
+    "jumlahTransaksi": 13399953
+  },
+  {
+    "noAkun": "ACC3851",
+    "idTransaksi": "TX000049",
+    "waktuTransaksi": "2024-01-15 00:57:28",
+    "jumlahTransaksi": 42954241
+  },
+  {
+    "noAkun": "ACC5537",
+    "idTransaksi": "TX000050",
+    "waktuTransaksi": "2024-01-15 02:30:31",
+    "jumlahTransaksi": 21093484
+  }
+]
